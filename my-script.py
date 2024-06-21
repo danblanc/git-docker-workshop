@@ -16,7 +16,7 @@ try:
 
     df.columns = [col.replace(' ', '_') for col in df.columns]
 
-    df.to_csv(f'data/{data_name}_{dt.date.today()}.csv')
+    df.to_csv(f'data/{data_name}_{dt.date.today()}.csv', index=False)
 
     print('Dataset stored as csv succesfully')
 
