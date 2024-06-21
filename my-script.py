@@ -5,7 +5,7 @@ import datetime as dt
 data_path = os.getenv('DATA_PATH')
 data_name = os.getenv('DATA_NAME')
 
-print(f'Data path: {data_path} n\ Data name: {data_name}')
+print(f'Data path: {data_path} \n Data name: {data_name}')
 
 try:
     df = pd.read_csv(data_path)
